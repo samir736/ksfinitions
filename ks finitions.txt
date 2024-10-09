@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="KSFinition - Spécialiste en isolation thermique extérieure.">
+    <title>KSFinition - Isolation Thermique Extérieure</title>
+    <style>
+        /* Styles de base pour le site */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        .hero {
+            background-image: url('isolation-background.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .services, .about {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 30px;
+        }
+
+        .service-box, .about-box {
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- En-tête -->
+    <header>
+        <h1>KSFinition</h1>
+        <p>Spécialiste en Isolation Thermique Extérieure</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#services">Nos Services</a>
+        <a href="#about">À Propos</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Section d'accueil avec une image en arrière-plan -->
+    <div class="hero" id="accueil">
+        <h1>Améliorez votre confort thermique avec KSFinition</h1>
+    </div>
+
+    <!-- Section des services -->
+    <div class="container">
+        <h2 id="services">Nos Services</h2>
+        <div class="services">
+            <div class="service-box">
+                <h3>Isolation Extérieure</h3>
+                <p>Nous fournissons des solutions complètes pour l'isolation thermique par l'extérieur (ITE), améliorant l'efficacité énergétique et l'apparence de votre maison.</p>
+            </div>
+            <div class="service-box">
+                <h3>Rénovation Énergétique</h3>
+                <p>Optimisez la performance énergétique de votre bâtiment avec nos services spécialisés en rénovation thermique.</p>
+            </div>
+            <div class="service-box">
+                <h3>Conseils & Expertise</h3>
+                <p>Nos experts sont à votre disposition pour vous conseiller sur les meilleures solutions d'isolation pour votre projet.</p>
+            </div>
+        </div>
+
+        <!-- Section À propos -->
+        <h2 id="about">À Propos de Nous</h2>
+        <div class="about">
+            <div class="about-box">
+                <h3>Expérience</h3>
+                <p>Plus de 15 ans d'expérience dans l'isolation thermique extérieure, avec des centaines de projets réussis.</p>
+            </div>
+            <div class="about-box">
+                <h3>Qualité</h3>
+                <p>Nous utilisons des matériaux de haute qualité pour garantir une isolation durable et performante.</p>
+            </div>
+            <div class="about-box">
+                <h3>Engagement</h3>
+                <p>KSFinition est engagé dans la protection de l'environnement en vous aidant à réduire vos consommations d'énergie.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section Contact -->
+    <div class="container" id="contact">
+        <h2>Contactez-nous</h2>
+        <p>Pour toute demande d'information ou devis, veuillez nous contacter :</p>
+        <p>Email : contact@ksfinition.fr</p>
+        <p>Téléphone : 01 23 45 67 89</p>
+        <p>Adresse : 123 Rue de l'Isolation, 75000 Paris, France</p>
+    </div>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2024 KSFinition. Tous droits réservés.</p>
+        <p><a href="#">Mentions légales</a> | <a href="#">Politique de confidentialité</a></p>
+    </footer>
+
+</body>
+
+</html>
